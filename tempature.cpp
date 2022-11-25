@@ -22,7 +22,7 @@ void C2F() {
         Tf = 1.8 * Tc + 32;
         std::cout << Tc << "°C is equal to " << Tf << "°F." << std::endl;
     } catch (std::invalid_argument) {
-        std::cout << "That was not a valid input." << std::endl;
+        std::cout << "Invalid input." << std::endl;
     }
 }
 int main() {
